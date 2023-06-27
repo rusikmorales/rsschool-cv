@@ -17,7 +17,7 @@ I want to learn Frontend, cause it's new and ineresting for me and I want to cha
 
 ## _Code example_
 A Narcissistic Number (or Armstrong Number) is a positive number which is the sum of its own digits, each raised to the power of the number of digits in a given base. In this Kata, we will restrict ourselves to decimal (base 10).
-
+```
 function narcissistic(value) {
   let length = value.toString().length;
   let result = 0;
@@ -31,7 +31,7 @@ function narcissistic(value) {
     return false;
   }
 }
-
+```
 ## _Courses:_
 * RS school (in progress)
 
